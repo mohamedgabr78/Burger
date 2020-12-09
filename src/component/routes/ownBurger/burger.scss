@@ -1,0 +1,67 @@
+.burger-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .bread {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .bread-one {
+      height: 20vh;
+      width: 20vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .salad {
+      width: 20vw;
+      height: 5vh;
+      position: static;
+    }
+    .souce {
+      width: 20vw;
+      height: 5vh;
+    }
+    .chees {
+      width: 20vw;
+      height: 11vh;
+    }
+    .beef {
+      width: 20vw;
+      height: 15vh;
+    }
+    .bread-two {
+      height: 40vh;
+      width: 20vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      height: 20vh;
+      width: 20vw;
+    }
+  }
+  .sandwich {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vw;
+    .sandwich-components {
+      width: 25%;
+      height: 10%;
+    }
+  }
+}
